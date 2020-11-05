@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.allinmd.testcase" verbose="1" preserve-order="true">
+    <parameter name="system.info" value="config.MySystemInfo"/>
+    <test name="com.allinmd.testcase.userCenter" preserve-order="true">
+        <classes>
+
+            <class name="my.company.SimpleTest"/>
+            <class name="my.company.simple2Test"/>
+
+        </classes>
+    </test>
+
+<!--    <test name="测试模块2" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="test.Case2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <listeners>-->
+<!--        <listener class-name="com.allinmd.report.ExtentTestNGIReporterListener"/>-->
+<!--    </listeners>-->
+</suite>
+
+
+
+
+
+

@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 import static io.qameta.allure.Allure.step;
 
 /**
- * @author baev (Dmitry Baev)
+ * @Author BenQi
+ * @Date 2020/10/26 17:36
+ * @Version 1.0
  */
-public class SimpleTest {
-
+public class simple2Test {
     @Test
     public void simpleTest() {
         step("step 1");
@@ -17,4 +18,3 @@ public class SimpleTest {
         Assert.assertEquals(1,1);
     }
 }
-
