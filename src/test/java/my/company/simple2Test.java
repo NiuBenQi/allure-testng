@@ -11,6 +11,7 @@ import static io.qameta.allure.Allure.step;
  * @Version 1.0
  */
 public class simple2Test {
+
     @Test
     public void simpleTest() {
         step("step 1");
