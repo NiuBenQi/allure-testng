@@ -5,8 +5,8 @@
     <test name="com.allinmd.testcase.userCenter" preserve-order="true">
         <classes>
 
-            <class name="my.company.SimpleTest"/>
-<!--            <class name="my.company.simple2Test"/>-->
+<!--            <class name="my.company.SimpleTest"/>-->
+            <class name="my.company.simple2Test"/>
 
         </classes>
     </test>
